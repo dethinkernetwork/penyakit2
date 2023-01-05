@@ -17,6 +17,7 @@ class CreateGejalaPenyakitTable extends Migration
             $table->id();
             $table->integer('gejala_id')->unsigned();
             $table->integer('penyakit_id')->unsigned();
+            $table->integer('value_cf')->unsigned();
         });
     }
 
