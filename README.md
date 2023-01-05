@@ -26,8 +26,8 @@ Ini adalah implementasi sistem pakar dengan menggunakan metode Certainty Factor,
 You can fork or clone this project
 
 ```sh
-git clone https://github.com/superXdev/Sistem-Diagnosa-Penyakit
-cd Sistem-Diagnosa-Penyakit
+git clone https://github.com/dethinkernetwork/penyakit2
+cd penyakit2
 composer install
 cp .env.example .env <-- edit db config
 php artisan install
@@ -44,9 +44,6 @@ Argument `<total>` bersifat opsional
 ## Admin credentials
 - **Username:** admin
 - **Password:** admin123
-
-## Hasil Diagnosa
-![diagnosa](https://github.com/superXdev/Sistem-Diagnosa-Penyakit/blob/main/public/dist/img/screenshot/diagnosa.png?raw=true)
 
 ## Running Tests
 
